@@ -1,13 +1,14 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
-    int X,Y;
-    scanf("%d %d",&X,&Y);
-    int summation = X + Y;
-    int multiplication = X * Y;
-    int subtraction = X - Y;
-    printf("%d + %d = %d\n",X,Y,summation);
-    printf("%d * %d = %d\n",X,Y,multiplication);
-    printf("%d - %d = %d\n",X,Y,subtraction);
+int main()
+{
+    long long int X, Y;
+    scanf("%lld %lld", &X, &Y);
+    long long int summation = X + Y;
+    long long int multiplication = X * Y;
+    long long int subtraction = X - Y;
+    printf("%lld + %lld = %lld\n", X, Y, summation);
+    printf("%lld * %lld = %lld\n", X, Y, multiplication);
+    printf("%lld - %lld = %lld\n", X, Y, subtraction);
     return 0;
 }
