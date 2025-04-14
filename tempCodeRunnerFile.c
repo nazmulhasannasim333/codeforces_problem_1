@@ -1,2 +1,2 @@
 
-        printf("ALPHA\n");
+    int A,B,C,D;
